@@ -1,0 +1,5462 @@
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+#search-padding{
+  width:700px;
+  height:50px;
+  margin-left:40px;
+}
+#font-header{
+  font-size:20px;
+}
+.axio{
+  margin-top: 30px;
+}
+.nav-tabs{
+  margin-left:40px;
+}
+header{
+ /* top:0;
+  margin: 0;
+  position:sticky;*/
+  width: 100%;
+  background-color: white;
+  box-shadow: 8px 8px 8px 0 grey;
+}
+#search-products{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding-left: px;
+}
+#icon{
+  height:70px;
+  width:120px;
+}
+ #gold{
+  padding:20px 30px 20px 30px;
+  border-style: none;
+  background-color: white;
+  margin-left: 125px;
+ }
+ .gold-option-list{
+ margin-top: 15px;
+ margin-bottom: 15px;
+ border-style: none;
+  background-color: white;
+ }
+ #gold:hover{
+  color:white;
+  background-color:black;
+  font-weight: bold;
+  
+ }
+ #premium{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+  }
+  #premium:hover{
+  font-weight: bold;
+  color:white;
+  background-color:black;
+ }
+ #new-arrivals{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+  }
+  #new-arrivals:hover{
+    font-weight: bold;
+  color:white;
+  background-color:black;
+ }
+ #traditional{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+
+  }
+  #traditional:hover{
+    font-weight: bold;
+  color:white;
+  background-color:black;
+ }
+ #accessories{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+  }
+  #accessories:hover{
+    font-weight: bold;
+  color:white;
+  background-color:black;
+ }
+ #our-brand{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+ }
+ #our-brand:hover{
+  font-weight: bold;
+  text-decoration:underline
+ }
+ #wedding{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+  }
+  #wedding:hover{
+    font-weight: bold;
+  color:white;
+  background-color:black;
+ }
+ #more{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+ } 
+ .baja-img img{
+  width:300px;
+  height:80px;
+ }
+ #more:hover{
+  font-weight: bold;
+  color:white;
+  background-color:black;
+ }
+ #location-sticky{
+  padding: 15px;
+  padding-left:15px;
+  padding-right: 20px;
+  margin-left:20px;
+  color:white;
+background-color:rgb(1, 62, 62);
+  font-size: 23px;
+ }
+ #location-sticky:hover{
+  color: White;
+  background-color: maroon;
+  border-radius: 100px;
+ }
+#shop-for-h1{
+  font-family:"cursive";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+#shop-for{
+background-color:white;
+padding-top: 40px;
+padding-bottom:50px;
+
+}
+#flex-container{
+display:flex;
+
+}
+.button-shop-for
+{
+margin-top:30px;
+margin-left: 30px;
+border-style:none;
+background-color:white;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+.button-shop-for:hover{
+font-weight: bolder;
+  text-decoration:underline
+}
+
+.mens-button{
+margin-left: 120px;
+}
+.couples-button{
+margin-left: 80px;
+}
+.womens-button{
+margin-left:110px;
+}
+.traditional-button{
+margin-left:110px
+}
+.personalized-button{
+  margin-left:110px;
+}
+.wedding-button{
+margin-left:80px;
+}
+.kids-button{
+margin-left:100px;
+}
+
+.shop-for-jewellery:hover{
+box-shadow:20px 20px 20px gray;
+}
+.shop-for-jewellery{
+width:18rem;
+}
+.card-hover:hover{
+box-shadow:20px 20px 20px gray;}
+.button-box{
+border-style: none;
+background-color: white;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+#scrolling-items{
+background-color: white;
+}
+#gold-option-1{
+display: none;
+}
+#diamond-option-2{
+display: none;
+}
+.diamond-option-2-c{
+font-size: 30px;
+}
+#diamond-option-2 button{
+border:none;
+background-color: white;
+padding-right: 20px;
+padding-top:20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.silver{
+border-style:ridge;
+border: 3px ridge red;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#silver-option-3{
+ display:none;
+}
+#silver-option-3 button{
+border:none;
+background-color: white;
+padding-right: 20px;
+padding-top:20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#traditional-option-4{
+display:none;
+
+}
+#traditional-option-4 button{
+border:none;
+background-color: white;
+padding-right: 30px;
+padding-left: 30px;
+padding-top:20px;
+}
+#traditional-option-4 th{
+padding-left:20px;
+}
+#platinum-option-5{
+display:none
+}
+#platinum-option-5 button{
+border:none;
+background-color: white;
+padding-right: 30px;
+padding-left: 30px;
+padding-top:20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#platinum-option-5 button{
+border:none;
+background-color: white;
+padding-right: 30px;
+padding-left: 30px;
+padding-top:20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#platinum-option-5{
+display:none
+}
+#platinum-option-5 img{
+padding: 30px;
+}
+#wedding{
+color: rgb(209, 40, 40);
+
+}#platinum-option-5 button{
+border:none;
+background-color: white;
+padding-right: 30px;
+padding-left: 30px;
+padding-top:20px;
+font-family:"cursive";
+}
+#platinum-option-5{
+display: none;
+}
+#alert-discount{
+padding:0px;
+margin: 0%;
+padding-top: 10px;
+padding-bottom:10px;
+background-color:rgb(125, 5, 63);
+text-align:center ;
+color: white;
+border-radius: 0%;
+}
+.scrolling-diamonds{
+font-family:"cursive";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+}
+#our-collectios-head{
+text-align: center;
+background-image: url(https://ggl-api.g-trac.net/images/thumbs/0099369.jpg);
+color: black;
+font-family:"cursive";
+padding-top: 50px;
+padding-bottom: 50px;
+background-size: 1330px 250px;
+font-size: 50px;
+background-repeat: no-repeat;
+box-shadow: 0px 0px 20px 20px grey;
+}
+#img1{
+padding-left:20px;
+}
+#img1:hover{
+height:280px;
+width: 300px;
+}
+#img2:hover{
+height:280px;
+width: 300px;
+}
+#img3:hover{
+height:280px;
+width: 300px;
+}
+#img2{
+padding-left: 30px;
+}
+#img3{
+padding-left: 30px;
+}
+#our-collections{
+background-color:bisque;
+padding-left:50px;
+height: 750px;
+border-radius: 20px;
+border: 3px solid black;
+}
+.para p{
+font-size:20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:rgb(173, 6, 103);
+font-weight: bold;
+background-color:rgb(202, 197, 197);
+}
+.pic1 pre{
+font-family: 'Times New Roman', Times, serif;
+font-size:20px;
+margin-left:px;
+font-weight:bolder;
+}
+.mainmenu{
+text-align: center;
+list-style: none;
+margin-top:70px;
+height: 550px;
+
+}
+.submenu{
+list-style: none;
+}
+#our-collections-head{
+text-align: center;
+margin-top: 50px;
+color: black;
+font-family:"cursive";
+font-size: 50px;
+}
+.mainmenu li{
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.bottom{
+padding-top: 40px;
+background-color: rgb(253, 232, 236);
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+}
+.bottom-details{
+background-color:papayawhip;
+font-family: 'Times New Roman', Times, serif;
+padding:20px 40px 20px 40px;
+}
+.bottom-details th{
+padding:20px 10px 40px 50px;
+font-family: 'Times New Roman', Times, serif;
+font-weight:2500;
+font-size: 20px;
+}
+.bottom-details td{
+padding:0px 10px 5px 50px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+font-size: 20px;
+}
+#line{
+border: 1px solid black;
+}
+#silver-h1{
+text-align: center;
+}
+.Sno1{
+padding-left: 60px;
+opacity:0.5;
+}
+.Sno1:hover{
+opacity:1.0;
+}
+.Sno2{
+padding-left:125px;
+opacity:0.5;
+}
+.Sno2:hover{
+opacity:1.0;
+}
+.Sno3{
+padding-left:130px;
+opacity:0.5;
+}
+.Sno3:hover{
+opacity:1.0;
+}
+.Sno4{
+padding-left:260px;
+opacity:0.5;
+}
+.Sno4:hover{
+opacity:1.0;
+}
+.Sno5
+{
+padding-right:100px;
+opacity:0.5;
+}
+.Sno5:hover{
+opacity:1.0;
+}
+.Sno6{
+padding-right:170px;
+padding-left: 58px;
+opacity:0.5;
+}
+.Sno6:hover{
+opacity:1.0;
+}
+.Sno7{
+padding-right:160px;
+padding-left:0;
+opacity:0.5;
+}
+.Sno7:hover{
+opacity:1.0;
+}
+.Sno8{
+padding-right:45px;
+opacity:0.5;
+}
+.Sno8:hover{
+opacity:1.0;
+}
+.silver button{
+border-style: none;
+background-color: white;
+}
+.video-add{
+background-color: black;
+height: 600px;
+}
+.navbar{
+height: 110px;
+background-image: url(https://img.freepik.com/premium-photo/jewelry-diamond-ring-with-abstract-festive-glitter-texture-background-blur-with-bokeh-light_293060-7436.jpg);
+}
+.btn-outline-success{
+background-color: white;
+border-color: black;
+}
+#axio{
+padding-top: 20px;
+}
+.hr{
+padding:2px 0 0 0;
+background-color: black;
+}
+#vertical-line{
+width: 1px;
+height:100px;
+background-color: black;
+margin-left: 20px;
+}
+.platinum button{
+border-style: none;
+}
+.platinum-ring{
+margin-top:10px;
+}
+.gem-ring{
+margin-top:10px;
+}
+.platinum{
+margin: 0;
+}
+.platinum button{
+background-color: white;
+}
+.platinum-heading{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size:30px;
+}
+#coupleheight{
+height:286px;
+}
+#womenheight{
+height:290px;
+}
+#personalheight img{
+height:290px;
+}
+.gold-banner{
+width:100%;
+}
+.adver-img-1{
+width:100%;
+}
+.adver-img-2{
+width:100%;
+}
+#shop-for-p{
+text-align: center;
+font-size: 20px;
+}
+.right-line{
+margin-top:25px;
+height:2px;
+width:315px;
+background-color:black;
+margin-left: 20px;
+}
+.left-line{
+margin-top:25px;
+height:2px;
+width:315px;
+background-color:black;
+}
+.for-gold{
+background-image:url("https://bafleh.com/wp-content/uploads/2022/10/For-Desktop-Gold-Poster-min.png");
+background-size: 1500px 500px;
+background-repeat: no-repeat;
+height: 600px;
+width:1330px;
+}
+.shop-name{
+margin-left:320px;
+font-family: 'Times New Roman', Times, serif;
+color: darkred;
+font-size: 90px;
+/*padding-top:190px;*/
+}
+#shop-name{
+margin-left: 320px;
+font-family: 'Times New Roman', Times, serif;
+color:rgb(55, 77, 99);
+font-size: 130px;
+}
+.shop-off{
+margin-left: 300px;
+color:rgb(55, 77, 99);
+font-family: 'Times New Roman', Times, serif;
+font-size: 23px;
+}
+.diamond-title{
+font-family: 'Times New Roman', Times, serif;
+font-size: 45px;
+margin-left: 20px;
+}
+.diamond-quotes{
+margin-left:20px;
+font-size: 20px;
+}
+.view-collection-line{
+width: 230px;
+height:5px;
+background-color: brown;
+}
+.view-collection-heading{
+text-decoration: underline;
+margin-left:20px;
+margin-top:60px;
+
+}
+.view-collection-heading button{
+border-style: none;
+text-decoration: underline;
+text-decoration-color: rgb(244, 105, 63);
+background-color: white;
+}
+.view-collection-img{
+margin-left:150px;
+margin-top:40px;
+background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+background-size: 350px 550px;
+height:550px ;
+width:600px;
+background-repeat: no-repeat;
+
+}
+.view-collection-img1{
+margin-left:150px;
+margin-top: 160px;
+}
+.view-collection-img2{
+margin-top: 300px;
+margin-left:280px;
+}
+/*view-collection-img3{
+background-image: url("https://www.bhimagold.com/images/decor.svg");
+height:100px;
+width:250px;
+background-size: 250px 100px;
+margin-left: 450px;
+}*/
+.STYLE-WITH-DIAMONS{
+font-family: 'Times New Roman', Times, serif;
+margin-left:35px;
+}
+.right-line-diamond{
+width:380px;
+height:2px;
+background-color: black;
+margin-top: 20px;
+}
+.left-line-diamond{
+width:380px;
+height:2px;
+background-color: black;
+margin-top: 20px;
+}
+
+.box1 {
+    background: linear-gradient(to right, rgb(229, 225, 225), rgb(235, 168, 177));
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  }
+  #image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 200px;
+  }
+  .banner-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+  margin-left: 30px;
+  margin-top: 40px;
+  }
+  .banner-para{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .explore{
+    font-size: 30px;
+  margin-left: 150px;
+  border: 2px solid red;
+ padding: 2px 10px 2px 15px;
+  border-radius: 390px;
+ width: 130px;
+  }
+  .adver img{
+margin-left: 100px;
+  }
+  .adver p{
+margin-left: 60px;
+font-family: cursive;
+font-size: 17px;
+margin-top: 20px;
+font-weight: 500;
+}
+.adver {
+background-color:rgb(253, 232, 236);
+padding-top: 40px;
+padding-bottom: 20px;
+}
+.mm-gold{
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+.mm-para{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+.Fast-shipping img:hover{
+width:60px;
+height:60px;
+}
+.Fast-shipping img{
+margin-left: 90px;
+}
+.Timeless-pieces img:hover{
+width:60px;
+height:60px;
+}
+.Heritage-inspired img:hover{
+width:60px;
+height:60px;
+}
+.Custom-designs img:hover{
+width:60px;
+height:60px;
+}
+.rose-gold{
+height:750px;
+}
+.rose-gold-firstimg img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rose-gold-heading h1{
+      font-family:"cursive";
+      text-align: center;
+      font-size: 55px;
+      margin-top: 50px;
+      font-weight: 500;
+  }
+  .rose-gold-heading p{
+      font-family:"cursive";
+      font-size: 25px;
+      text-align: center;
+  }
+  .rose-gold-firstimg:hover{
+      height:480px;
+      width:308px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rose-gold-firstimg img{
+    height:300px;
+    width:300px;
+    border-radius: 0px;
+  }
+   
+  .first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 40px;
+
+  }
+  .first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:480px;
+      width:308px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:300px;
+    width:300px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+  .second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 50px;
+
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+      margin-top:20px;
+       }
+       .rose-gold{
+        background-image: url("https://media.istockphoto.com/id/910271988/vector/clover-leaf-hand-drawn-sketch-doodle-illustration-st-patricks-day-symbol-irish-lucky-shamrock.jpg?s=612x612&w=0&k=20&c=3v1QzSSclYJAERYMQqFY4muhlUZk184VUtbcnSnOMF8=");
+       background-repeat: no-repeat;
+       }
+       .rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+      height:480px;
+      width:308px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-three img{
+    height:300px;
+    width:300px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+   
+  .three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 70px;
+
+  }
+  .three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .secondpart-btn{
+  background-color: transparent;
+  border:none;
+  margin-top:20px;
+ }
+ .secondpart{
+  display: none;
+ }
+ .firstpart-btn{
+        font-size: 100px;
+        background-color: transparent;
+        border: none;
+        margin-top:20px;
+       }
+       .part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 60px; 
+    }
+    .part2-first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;
+  }
+  .part2-second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;     
+  }
+  .mid-img-scroll{
+    height:424px;
+    width:1330px;
+  }
+  #axio{
+    height:60px;
+    width:150px;
+  }
+  .part2-rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .part2-rosegold-img-two:hover{
+      height:480px;
+      width:308px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .part2-rosegold-img-two img{
+    height:300px;
+    width:300px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+  .part2-rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .part2-rosegold-img-three:hover{
+      height:480px;
+      width:308px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .part2-rosegold-img-three img{
+    height:300px;
+    width:300px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+   
+  .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;
+
+  }
+  .part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-rose-gold-firstimg img:hover{
+        border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+       }
+       .part2-rose-gold-firstimg img{
+    height:300px;
+    width:300px;
+    border-radius: 0px;
+    padding-top:0px;
+}
+.part2-first-rose-p{
+color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left:60px;
+}
+.part2-first-rose-rs{
+color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.part2-rose-gold-firstimg:hover{
+height:480px;
+      width:308px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;
+}
+
+.bottom-details p{
+font-size:20px;
+}
+.bottom-details h4{
+font-weight: bolder;
+margin-top: 20px;
+}
+.bottom-details{
+
+}
+#myNavBar{
+margin-top: 40px;
+}
+
+.properties a{
+text-align:center;
+font-size:25px;
+font-family: "cursive";
+font-weight: 1000;
+}
+.properties{
+background-image: url(https://img.freepik.com/premium-photo/jewelry-diamond-ring-with-abstract-festive-glitter-texture-background-blur-with-bokeh-light_293060-7436.jpg);
+
+}
+
+       /*hdjgfvjlbkjgbhv
+
+ @media(max-width:1070px){
+  #myNavBar{
+    width:200px;
+  }
+ }
+
+ @media(max-width:1280px){
+  #search-padding{
+      width:450px;
+      float:top;
+      margin-left:10px;
+  }
+ }
+ @media(max-width:801px){
+  #search-padding{
+      width:300px;
+      float:top;
+      margin-left:0px;
+     
+  }
+  .search-border{
+      border-style: none;
+      border:none;
+      height:10px
+  }
+}
+/*hdjgfvjlbkjgbhv*/
+@media(max-width:1320px){
+  #search-padding{
+    width:600px;
+  }
+  .rose-gold{
+    height:800px
+  }
+  .right-line-diamond{
+    width:25%;
+    margin-top:23px;
+  }
+  .left-line-diamond{
+    width:25%;
+    margin-top:23px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:49%;
+    padding-right: 3px;
+    margin-right:2px;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 40px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+    text-align: center;
+}
+.right-line{
+margin-top:25px;
+height:2px;
+width:24%;
+background-color:black;
+margin-left: 20px;
+}
+.left-line{
+margin-top:25px;
+height:2px;
+width:24%;
+background-color:black;
+}
+
+}
+@media(max-width:1281px){
+  #search-padding{
+    width:550px;
+  }
+  #gold{
+    margin-left: 80px;
+}
+.gem-earring{
+  height:143px;
+  width:300px;
+}
+.gem-ring{
+  height:143px;
+  width:300px;
+}
+.gem-chain{
+  height:300px;
+  width:300px;
+}
+.platinum-chain{
+    height:300px;
+    width:300px;
+  }
+  .platinum-bracelet{
+    height:143px;
+    width:300px;
+  }
+  .platinum-ring{
+    height:143px;
+    width:300px;
+  }
+  .rose-gold{
+    height:850px
+  }
+  
+}
+@media(max-width:1240px){
+.rose-gold{
+  height:800px
+}
+.rose-gold-firstimg img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rose-gold-heading h1{
+      font-family:"cursive";
+      text-align: center;
+      font-size: 55px;
+      margin-top: 50px;
+      font-weight: 500;
+  }
+  .rose-gold-heading p{
+      font-family:"cursive";
+      font-size: 25px;
+      text-align: center;
+  }
+  .rose-gold-firstimg:hover{
+      height:450px;
+      width:268px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rose-gold-firstimg img{
+    height:260px;
+    width:260px;
+    border-radius: 0px;
+  }
+   
+  .first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 40px;
+
+  }
+  .first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:450px;
+      width:268px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:260px;
+    width:260px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+  .second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 50px;
+
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+      margin-top:20px;
+       }
+       .rose-gold{
+        background-image: url("https://media.istockphoto.com/id/910271988/vector/clover-leaf-hand-drawn-sketch-doodle-illustration-st-patricks-day-symbol-irish-lucky-shamrock.jpg?s=612x612&w=0&k=20&c=3v1QzSSclYJAERYMQqFY4muhlUZk184VUtbcnSnOMF8=");
+       background-repeat: no-repeat;
+       }
+       .rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+      height:450px;
+      width:268px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-three img{
+    height:260px;
+    width:260px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+   
+  .three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 70px;
+
+  }
+  .three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .secondpart-btn{
+  background-color: transparent;
+  border:none;
+  margin-top:20px;
+ }
+ .secondpart{
+  display: none;
+ }
+ .firstpart-btn{
+        font-size: 100px;
+        background-color: transparent;
+        border: none;
+        margin-top:20px;
+       }
+       .part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 60px; 
+    }
+    .part2-first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;
+  }
+  .part2-second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;     
+  }
+  .part2-rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .part2-rosegold-img-two:hover{
+    height:450px;
+      width:268px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .part2-rosegold-img-two img{
+    height:260px;
+    width:260px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+  .part2-rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .part2-rosegold-img-three:hover{
+    height:450px;
+      width:268px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .part2-rosegold-img-three img{
+    height:260px;
+    width:260px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+   
+  .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;
+
+  }
+  .part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-rose-gold-firstimg img:hover{
+        border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+       }
+       .part2-rose-gold-firstimg img{
+    height:260px;
+    width:260px;
+    border-radius: 0px;
+    padding-top:0px;
+}
+.part2-rose-gold-firstimg:hover{
+height:450px;
+      width:268px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;
+}
+}
+
+@media(min-width:1200px){
+          .properties{
+          display: none;
+          float: left;
+          margin-left: 30px;
+      } 
+      }
+
+@media(max-width:1199px)
+{
+  #myTab{
+          display: none;
+      }
+  #search-products{
+    margin-left: 1px;
+  }
+  #gold{
+    font-size:20px;
+    margin-left: 130px;
+  }
+  #premium{
+    font-size:20px;
+  }
+  #new-arrivals{
+    font-size: 20px;
+  }
+  #traditional{
+    font-size:20px;
+  }
+  #wedding{
+    font-size: 20px;
+  }
+  #more{
+    font-size:20px;
+  }
+  .gem-earring{
+  height:143px;
+  width:270px;
+}
+.gem-ring{
+  height:143px;
+  width:270px;
+}
+.gem-chain{
+  height:300px;
+  width:270px;
+}
+.platinum-chain{
+    height:300px;
+    width:270px;
+  }
+  .platinum-bracelet{
+    height:143px;
+    width:270px;
+  }
+  .platinum-ring{
+    height:143px;
+    width:270px;
+  }
+
+
+  
+  .mid-img-scroll{
+    height:424px;
+    width:1330px;
+  }
+  #axio{
+    height:60px;
+    width:150px;
+  }
+
+.rose-gold{
+height:750px;
+}
+.firstnav-bar{
+display: none;
+}
+.myTab{
+display: none;
+}
+}
+@media(max-width:1170px){
+  .shop-for-jewellery{
+width:16rem;
+}
+
+#coupleheight{
+height:253px;
+}
+#weddingheight{
+height:250px;
+}
+
+}
+@media(max-width:1145px){
+  .banner-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+  margin-left: 30px;
+  margin-top: 40px;
+  }
+  .banner-para{
+    font-size: 30px;
+    margin-left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .decoritem{
+    height:120px;
+    width:100%;
+    padding: 0;
+   margin-top: 70px;
+    margin-bottom: 0;
+  }
+  .explore{
+    font-size: 30px;
+  margin-left: 30px;
+  border: 2px solid red;
+ padding: 2px 10px 2px 15px;
+  border-radius: 390px;
+ width: 130px;
+  }
+}
+@media(max-width:1080px){
+  .gem-earring{
+  height:143px;
+  width:250px;
+}
+.gem-ring{
+  height:143px;
+  width:250px;
+}
+.gem-chain{
+  height:300px;
+  width:250px;
+}
+.platinum-chain{
+    height:300px;
+    width:250px;
+  }
+  .platinum-bracelet{
+    height:143px;
+    width:250px;
+  }
+  .platinum-ring{
+    height:143px;
+    width:250px;
+  }
+  .rose-gold-firstimg img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rose-gold-heading h1{
+      font-family:"cursive";
+      text-align: center;
+      font-size: 45px;
+      margin-top: 50px;
+      font-weight: 500;
+  }
+  .rose-gold-heading p{
+      font-family:"cursive";
+      font-size: 25px;
+      text-align: center;
+  }
+  .rose-gold-firstimg:hover{
+      height:450px;
+      width:258px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rose-gold-firstimg img{
+    height:250px;
+    width:250px;
+    border-radius: 0px;
+  }
+   
+  .first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 40px;
+
+  }
+  .first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:450px;
+      width:258px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:250px;
+    width:250px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+  .second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 50px;
+
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+      margin-top:20px;
+       }
+       .rose-gold{
+        background-image: url("https://media.istockphoto.com/id/910271988/vector/clover-leaf-hand-drawn-sketch-doodle-illustration-st-patricks-day-symbol-irish-lucky-shamrock.jpg?s=612x612&w=0&k=20&c=3v1QzSSclYJAERYMQqFY4muhlUZk184VUtbcnSnOMF8=");
+       background-repeat: no-repeat;
+       }
+       .rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+      height:450px;
+      width:258px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-three img{
+    height:250px;
+    width:250px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+   
+  .three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 70px;
+
+  }
+  .three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .secondpart-btn{
+  background-color: transparent;
+  border:none;
+  margin-top:20px;
+ }
+ .secondpart{
+  display: none;
+ }
+ .firstpart-btn{
+        font-size: 100px;
+        background-color: transparent;
+        border: none;
+        margin-top:20px;
+       }
+       .part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 60px; 
+    }
+    .part2-first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;
+  }
+  .part2-second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;     
+  }
+  .part2-rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .part2-rosegold-img-two:hover{
+    height:450px;
+      width:258px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .part2-rosegold-img-two img{
+    height:250px;
+    width:250px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+  .part2-rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .part2-rosegold-img-three:hover{
+    height:450px;
+      width:258px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .part2-rosegold-img-three img{
+    height:250px;
+    width:250px;
+    border-radius: 0px;
+    padding-top:0px;
+  }
+   
+  .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 30px;
+      font-size: 30px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 80px;
+
+  }
+  .part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:80px;
+      font-size: 30px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-rose-gold-firstimg img:hover{
+        border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+       }
+       .part2-rose-gold-firstimg img{
+    height:250px;
+    width:250px;
+    border-radius: 0px;
+    padding-top:0px;
+}
+.part2-rose-gold-firstimg:hover{
+height:450px;
+      width:258px;
+      margin-right:100px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;
+}
+      }
+@media(max-width:1025px){
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+.mid-img-scroll{
+      height:312px;
+      width:100%;
+    }
+    .axio{
+      width:25%;
+      
+    }
+    .axio img{
+      height:40%;
+      width:70%;
+      margin-left: 20px;
+    }
+    .vertical-line{
+      width:10%;
+    }
+    #vertical-line{
+      width: 1px;
+      height:130px;
+      background-color: black;
+      margin-left:30px;
+     }
+     .bajaj-img img{
+      margin-top: 10px;
+      width:330px;
+      height:80px;
+    }
+    .bajaj-img{
+      width:15%;
+    }
+  .platinum-chain-width{
+  width:25%;
+}
+.platinum-ring-width{
+  width:25%;
+}
+.gem-earring-width{
+  width:25%;
+}
+.gem-chain-width{
+  width:25%;
+}
+.gem-earring{
+  height:124px;
+  width:245px;
+}
+.gem-ring{
+  height:124px;
+  width:245px;
+}
+.gem-chain{
+  height:260px;
+  width:245px;
+}
+.platinum-chain{
+    height:260px;
+    width:245px;
+  }
+  .platinum-bracelet{
+    height:124px;
+    width:245px;
+  }
+  .platinum-ring{
+    height:124px;
+    width:245px;
+  }
+  #shop-for-h1{
+    font-size:40px;
+  }
+  .right-line{
+    width:23%;
+    margin-top:35px;
+  }
+  .shop-for-p-width{
+    width:50%;
+  }
+  .left-line{
+    width:23%;
+    margin-top:35px;
+  }
+  .gold-banner{
+    width:100%;
+    height:400px;
+  }
+  .shop-for-jewellery{
+    width:100%;
+    height:370px;
+  }
+  .shop-for-jewellery img{
+    width:100%;
+    height:200px;
+  }
+  #coupleheight{
+    height:200px;
+  }
+  #womenheight{
+    height:200px; 
+  }
+  #weddingheight{
+    height:200px;
+  }
+.adver-img-1{
+height:505px;
+width:230px;
+}.adver-img-2{
+width:230px;
+}
+.first-rose-gold{
+width:25%;
+}
+.second-rose-gold{
+width:25%;
+}
+.three-rose-gold{
+width:25%;
+}
+.rose-gold{
+height:600px;
+}
+.rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:350px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+    background-color: red;
+  }
+  .rosegold-img-two{
+    width:100%;
+  }
+  .second-rose-p{
+      color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      padding-left:50px;
+      text-align: center;
+      margin-right: 50px;
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:50px;
+      margin-top: 0%;
+      font-size: 25px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+    height:350px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }   
+  .rosegold-img-three img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .three-rose-p{
+    color:rgb(120, 87, 2);
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+      margin-top:10px;
+  }
+  .rosegold-img-three{
+    width:100%;
+    margin-top: 0px;
+  }
+  .three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 25px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .rose-gold-firstimg:hover{
+        height:350px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;     
+  }
+  .rose-gold-firstimg img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .first-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .first-rose-rs{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 25px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+  .rose-gold-firstimg{
+    width:100%;
+  }
+  .part2-rosegold-img-two{
+    width:100%;
+  }
+  .part2-rosegold-img-two img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .part2-second-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .part2-second-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 25px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .first-rose-gold-part2{
+    width:25%;
+  }
+  .part2-rosegold-img-two:hover{
+    height:350px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+  }
+  .second-rose-gold-part2{
+    width:25%;
+  }
+  .part2-three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .part2-three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 25px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .part2-rosegold-img-three:hover{
+    height:350px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .part2-rosegold-img-three{
+    width:100%;
+  }
+  .part2-rosegold-img-three img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+
+  .three-rose-gold-part2{
+    width:25%;
+  }
+.part2-rose-gold-firstimg img{
+height:200px;
+    width:100%;
+    border-radius: 0px;
+}
+.part2-first-rose-p{
+color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+}
+.part2-first-rose-rs{
+color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 25px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.part2-rose-gold-firstimg:hover{
+height:350px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+}
+.three-rose-gold-part2 img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width:100%;
+  }
+  .firstpart-btn{
+    width:80%;
+  }
+  .firstpart-btn svg{
+    width:100%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .secondpart-btn{
+    width:80%;
+  }
+  .secondpart-btn svg{
+    width:100%;
+    height:130px;
+    margin-top:20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  /*jyfyf*/
+  .right-line-diamond{
+    width:25%;
+    margin-top:23px;
+  }
+  .left-line-diamond{
+    width:25%;
+    margin-top:23px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:49%;
+    padding-right: 3px;
+    margin-right:2px;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 40px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .view-collection-heading{
+    font-size: 25px;
+    margin-left:0;
+  }
+  .view-collection-heading button > img{
+    width:39px;
+    height:50px;
+   }
+  .diamond-title{
+    font-size: 35px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size:23px;
+  }
+  .banner-heading{
+    font-size: 45px;
+    margin-left:50px;
+  }
+  .banner-para{
+    font-size: 25px;
+    width:50%;
+    margin-left:50px;
+  }
+  .box2{
+    width:100%;
+    height:500px;
+  }
+  .box1{
+    width:100%;
+  }
+  .mm-gold-banner{
+    width:60%
+  }
+  .explore{
+    font-size: 25px;
+  margin-left: 50px;
+  border: 2px solid red;
+ padding: 2px 10px 2px 20px;
+  border-radius: 390px;
+ width: 130px;
+  }
+  .decoritem{
+    width:100%;
+    height:115px;
+    margin-top:80px;
+  }
+  .model-img{
+    height:470px;
+    width:105%;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .model-img-width{
+    width:40%;
+  }
+  .bottom{
+padding-top: 20px;
+background-color: rgb(253, 232, 236);
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+}
+.location-width iframe{
+width:100%;
+}
+#gold{
+  padding:20px 20px 20px 20px;
+  border-style: none;
+  background-color: white;
+ }
+#gold{
+    font-size:20px;
+    margin-left: 50px;
+  }
+  #premium{
+    font-size: 20px;
+  }
+  #new-arrivals{
+    font-size: 20px;
+  }
+  #traditional{
+    font-size:20px;
+  }
+  #wedding{
+    font-size: 20px;
+  }
+  #more{
+    font-size:20px;
+  }
+  #search-padding{
+    width:500px;
+  }
+  .view-collection-img1{
+    width:300px;
+    margin-left:110px;
+    margin-top:100px;
+  }
+  .view-collection-img2{
+    margin-top: 320px;
+  }
+  #gold{
+    margin-left: 80px;
+  }
+}
+ @media(max-width:1000px){
+  #gold{
+    margin-left: 80px;
+  }
+  .axio{
+    width:25%;
+  }
+  .properties a{
+text-align:center;
+font-size:23px;
+font-family: "cursive";
+font-weight: 700;
+}
+
+  .axio img{
+    height:30%;
+    width:70%;
+    margin-left: 50px;
+  }
+  .axio-emi {
+    width:20%;
+    font-size:15px;
+    float:left;
+  }
+  .vertical-line{
+    width:5%;
+  }
+  #vertical-line{
+    text-align:left;
+    margin-left:4px;
+  }
+  .bajaj-finance{
+    width:20%;
+    font-size:15px;
+  }
+  .bajaj-img img{
+    margin-top: 10px;
+    width:300%;
+    height:50%;
+  }
+  .bajaj-img{
+    width:15%;
+  }
+  .adver-img-1{
+  width:100%;
+
+ }
+ .adver-img-2{
+  width:100%;
+ }
+ .rose-gold{
+height:650px;
+}
+.right-line-diamond{
+    width:20%;
+    margin-top:23px;
+  }
+  .left-line-diamond{
+    width:20%;
+    margin-top:23px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:59%;
+    padding-right: 3px;
+    margin-right:2px;
+    text-align: center;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 40px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .view-collection-heading{
+    font-size: 25px;
+    margin-left:0;
+  }
+  .view-collection-heading button > img{
+    width:39px;
+    height:50px;
+   }
+  .diamond-title{
+    font-size: 35px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size:18px;
+    width:100%;
+  }
+  .view-collection-img{
+margin-left:90px;
+margin-top:20px;
+background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+background-size: 350px 500px;
+height:500px ;
+width:350px;
+background-repeat: no-repeat;
+
+}
+.view-collection-img1{
+margin-left:80px;
+margin-top: 80px;
+background-color: red;
+height:200px;
+width:250px;
+}
+.view-collection-img2{
+margin-top: 270px;
+margin-left:300px;
+height:100px;
+width:100px;
+}
+.view-collection-img1{
+margin-left:65px;
+margin-top: 80px;
+
+height:200px;
+width:250px;
+}
+ } 
+ @media(max-width:950px){
+  #gold{
+    margin-left: 20px;
+    font-size:18px;
+  }
+ .adver-img-1{
+  width:100%;
+
+ }
+ .adver-img-2{
+  width:100%;
+ }
+  #premium{
+    font-size: 18px;
+  }
+  #new-arrivals{
+    font-size: 18px;
+  }
+  #traditional{
+    font-size:18px;
+  }
+  #wedding{
+    font-size: 18px;
+  }
+  #more{
+    font-size:18px;
+  }
+  .gem-earring{
+  height:124px;
+  width:200px;
+}
+.gem-ring{
+  height:124px;
+  width:200px;
+}
+.gem-chain{
+  height:260px;
+  width:200px;
+}
+.platinum-chain{
+    height:260px;
+    width:200px;
+  }
+  .platinum-bracelet{
+    height:124px;
+    width:200px;
+  }
+  .platinum-ring{
+    height:124px;
+    width:200px;
+  }
+  
+ } 
+/*mobile*/
+
+@media(max-width:860px){
+#search-padding{
+      width:400px;
+      float:top;
+      margin-left:0px;
+  }
+  #gold{
+    margin-left: 40px;
+    font-size:15px;
+  }
+  #premium{
+    font-size: 15px;
+  }
+  #new-arrivals{
+    font-size: 15px;
+  }
+  #traditional{
+    font-size:15px;
+  }
+  #wedding{
+    font-size: 15px;
+  }
+  #more{
+    font-size:15px;
+  }
+  .view-collection-img1{
+margin-left:50px;
+margin-top: 80px;
+height:200px;
+width:250px;
+}
+.decoritem{
+    width:100%;
+    height:115px;
+    margin-top:55px;
+  }
+}
+@media(max-width:801px){
+.axio{
+    width:30%;
+  }
+  .axio img{
+    height:30%;
+    width:70%;
+    margin-left: 30px;
+  }
+  .axio-emi {
+    width:20%;
+    font-size:13px;
+    float:left;
+  }
+  .vertical-line{
+    width:5%;
+  }
+  #vertical-line{
+    text-align:left;
+    margin-left:4px;
+    height:100px;
+  }
+  .bajaj-finance{
+    width:20%;
+    font-size:13px;
+  }
+  .bajaj-img img{
+    margin-top: 10px;
+    width:400%;
+    height:60%;
+  }
+  .bajaj-img{
+    width:15%;
+  }
+  .gem-earring{
+  height:120px;
+  width:185px;
+}
+.gem-ring{
+  height:120px;
+  width:185px;
+}
+.gem-chain{
+  height:252px;
+  width:185px;
+}
+.platinum-chain{
+    height:252px;
+    width:185px;
+  }
+  .platinum-bracelet{
+    height:120px;
+    width:185px;
+  }
+  .platinum-ring{
+    height:120px;
+    width:185px;
+  }
+  .second-rose-p{
+      color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      padding-left:40px;
+      text-align: center;
+      margin-right: 50px;
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:30px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:40px;
+      text-align: center;
+  }
+.three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:30px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+.first-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:25px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:40px;
+      text-align: center;
+  }
+  .first-rose-rs{
+    color:black;
+      text-align: center;
+      margin-left:30px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .rose-gold{
+height:700px;
+}
+.part2-three-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:30px;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-first-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 10px;
+      font-size: 25px;
+      font-family: "cursive";
+      display:none;
+      padding-left:0; 
+      margin-right: 0;
+      text-align: center;
+    }
+    .part2-first-rose-rs{
+      color:black;
+      text-align: center;
+      margin-left:30px;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-second-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 10px;
+      font-size: 25px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 0;
+      margin-right: 0;
+      text-align: center;
+  }
+  .part2-second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:30px;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .part2-three-rose-p{
+      color:rgb(77, 56, 1);
+      margin-top: 10px;
+      font-size: 25px;
+      font-family: "cursive";
+      display:none;
+      padding-left: 0;  
+      margin-right: 0;
+      text-align:center;   
+  }
+  .view-collection-img2 img{
+    height:180px;
+    width:180px;
+  }
+  .view-collection-img2{
+margin-top: 250px;
+margin-left:260px;
+  }
+  .right-line-diamond{
+    width:20%;
+    margin-top:23px;
+  }
+  .left-line-diamond{
+    width:20%;
+    margin-top:23px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:59%;
+    padding-right: 0;
+    margin-right:0;
+    text-align: center;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 35px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .view-collection-heading{
+    font-size: 20px;
+    margin-left:0;
+  }
+  .view-collection-heading button > img{
+    width:30px;
+    height:40px;
+   }
+  .diamond-title{
+    font-size: 30px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size:18px;
+    width:100%;
+  }
+  .view-collection-img{
+margin-left:90px;
+margin-top:20px;
+background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+background-size: 300px 450px;
+height:450px;
+width:300px;
+background-repeat: no-repeat;
+
+}
+.view-collection-img1{
+margin-left:50px;
+margin-top: 40px;
+height:180px;
+width:240px;
+}
+
+}
+
+
+@media(max-width:780px){
+.decoritem{
+    width:100%;
+    height:115px;
+    margin-top:0;
+  }
+}
+@media(max-width:768px){
+#search-padding{
+      width:300px;
+      float:top;
+      margin-left:0px;
+  }
+  #gold{
+    margin-left: 50px;
+    font-size:15px;
+    padding:10px;
+  }
+  #premium{
+    font-size: 15px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size: 15px;
+    padding:10px;
+  }
+  #traditional{
+    font-size:15px;
+    padding:10px;
+  }
+  #wedding{
+    font-size: 15px;
+    padding:10px;
+  }
+  #more{
+    font-size:15px;
+    padding:10px;
+  }
+.axio{
+    width:30%;
+    margin-left:0;
+  }
+  
+  .axio img{
+    height:30%;
+    width:70%;
+  }
+  .axio-emi{
+    width:20%;
+    font-size:12px;
+    float:left;
+  }
+  .vertical-line{
+    width:5%;
+  }
+  #vertical-line{
+    text-align:left;
+    margin-left:4px;
+  }
+  .bajaj-finance{
+    width:20%;
+    font-size:12px;
+  }
+  .bajaj-img img{
+    margin-top: 10px;
+    width:400%;
+    height:60%;
+  }
+  .bajaj-img{
+    width:15%;
+  }
+  .gem-earring{
+  height:120px;
+  width:170px;
+}
+.gem-ring{
+  height:120px;
+  width:170px;
+}
+.gem-chain{
+  height:252px;
+  width:170px;
+}
+.platinum-chain{
+    height:252px;
+    width:170px;
+  }
+  .platinum-bracelet{
+    height:120px;
+    width:170px;
+  }
+  .platinum-ring{
+    height:120px;
+    width:170px;
+  }
+  .adverdisement{
+    display:none;
+  }
+  .second-rose-p{
+      color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:22px;
+      font-family: "cursive";
+      display:none;
+      padding-left:0px;
+      text-align: center;
+      margin-right: 0;
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:30px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:22px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0%;
+      padding-left:0;
+      text-align: center;
+  }
+.three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:30px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+.first-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:22px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0%;
+      padding-left:0%;
+      text-align: center;
+  }
+  .first-rose-rs{
+    color:black;
+      text-align: center;
+      margin-left:30px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+    }
+    .rose-gold-firstimg:hover{
+        height:330px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+      margin-top:10px;    
+  }
+  .rosegold-img-two:hover{
+      height:330px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-three:hover{
+    height:330px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  } 
+  .rose-gold{
+    height:600px;
+  }
+
+}
+@media(max-width:720px){
+.STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 33px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .box2{
+    width:100%;
+    height:550px;
+  }
+}
+@media(max-width:700px){
+  .gem-earring{
+  height:100px;
+  width:150px;
+}
+.gem-ring{
+  height:100px;
+  width:150px;
+}
+.gem-chain{
+  height:212px;
+  width:150px;
+}
+.platinum-chain{
+    height:212px;
+    width:150px;
+  }
+  .platinum-bracelet{
+    height:100px;
+    width:150px;
+  }
+  .platinum-ring{
+    height:100px;
+    width:150px;
+  }
+  .view-collection-img2 img{
+    height:160px;
+    width:160px;
+  }
+  .view-collection-img2{
+margin-top: 230px;
+margin-left:230px;
+  }
+  .right-line-diamond{
+    width:20%;
+    margin-top:23px;
+  }
+  .left-line-diamond{
+    width:20%;
+    margin-top:23px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:59%;
+    padding-right: 0;
+    margin-right:0;
+    text-align: center;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+    font-size: 30px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .view-collection-heading{
+    font-size: 20px;
+    margin-left:0;
+    margin-top: 0;
+  }
+  .view-collection-heading button > img{
+    width:30px;
+    height:40px;
+   }
+  .diamond-title{
+    font-size: 30px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size:18px;
+    width:100%;
+  }
+  .view-collection-img{
+margin-left:80px;
+margin-top:20px;
+background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+background-size: 270px 400px;
+height:400px;
+width:270px;
+background-repeat: no-repeat;
+
+}
+.view-collection-img1{
+margin-left:50px;
+margin-top: 0px;
+height:160px;
+width:200px;
+}
+}
+
+@media(max-width:650px){
+#search-padding{
+      width:200px;
+      float:top;
+      margin-left:0px;
+  }
+  #gold{
+    margin-left: 10px;
+  }
+  
+       .firstrose-gold-empty{
+        display: none;
+       }
+       .rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:300px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+    background-color: red;
+  }
+  .rosegold-img-two{
+    width:100%;
+  }
+  .second-rose-p{
+      color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      padding-left:0px;
+      text-align: center;
+      margin-right: 0;
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:90px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+    height:300px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }   
+  .rosegold-img-three img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0;
+      padding-left:0px;
+      text-align: center;
+  }
+  .rosegold-img-three{
+    width:100%;
+    margin-top: 0px;
+  }
+  .three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:80px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .first-rose-gold{
+        width:50%;
+       }
+       .second-rose-gold{
+        width:50%;
+       }
+       .three-rose-gold{
+        width:50%;
+       }
+       /*rose-gold one*/
+       .rose-gold-firstimg:hover{
+        height:300px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+      margin-top:10px;    
+  }
+  .rose-gold-firstimg img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .first-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0;
+      padding-left:0px;
+      text-align: center;
+  }
+  .first-rose-rs{
+    color:black;
+      text-align: center;
+      margin-left:80px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+  .rose-gold-firstimg{
+    width:100%;
+    margin-top:10px;
+  }
+  .secondpart-btn {
+    width:50%;
+  }
+  .firstpart-btn{
+    width:50%;
+  }
+  .second-button-rose{
+    width:50%;
+  }
+  .first-button-rose{
+    width:50%;
+  }
+  .secondpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+  .firstpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+  .rose-gold{
+    height:800px;
+  } 
+      
+  .part2-rosegold-img-two{
+    width:100%;
+  }
+  .part2-rosegold-img-two img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .part2-second-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0;
+      padding-left:0;
+      text-align: center;
+  }
+  .part2-second-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:80px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .first-rose-gold-part2{
+    width:50%;
+  }
+  .part2-rosegold-img-two:hover{
+        height:300px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .rose-img-two2{
+    width:50%;
+  }
+  .part2-rosegold-img-three{
+    width:100%;
+  }
+  .part2-rosegold-img-three img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .second-rose-gold-part2{
+    width:50%;
+  }
+  .part2-three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0;
+      padding-left:0;
+      text-align: center;
+  }
+  .part2-three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:80px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .part2-rosegold-img-three:hover{
+    height:300px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .first-rose-gold-part2{
+    width:50%;
+  }
+  .three-rose-gold-part2{
+    width:50%;
+  }
+.part2-rose-gold-firstimg img{
+    height:200px;
+    width:100%;
+    border-radius: 0px;
+}
+.part2-first-rose-p{
+     color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:0;
+      padding-left:0;
+      text-align: center;
+}
+.part2-first-rose-rs{
+color:black;
+      text-align: center;
+      margin-left:80px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.part2-rose-gold-firstimg:hover{
+     height:300px;
+      width:100%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+}
+.three-rose-gold-part2 img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width:100%;
+  }
+  .three-rose-gold-part2{
+    width: 50%;
+    margin-top: 10px;
+  }
+  .diamond-quotes{
+    font-size:15px;
+    width:100%;
+  }
+}
+@media(max-width:620px){
+.gem-earring{
+  height:100px;
+  width:135px;
+}
+.gem-ring{
+  height:100px;
+  width:135px;
+}
+.gem-chain{
+  height:212px;
+  width:135px;
+}
+.platinum-chain{
+    height:212px;
+    width:135px;
+  }
+  .platinum-bracelet{
+    height:100px;
+    width:135px;
+  }
+  .platinum-ring{
+    height:100px;
+    width:135px;
+  }
+  .box2{
+    width:100%;
+    height:600px;
+  }
+  .properties a{
+text-align:center;
+font-size:20px;
+font-family: "cursive";
+font-weight: 550;
+}}
+
+
+@media(max-width:600px){
+#gold{
+    margin-left:0px;
+    font-size:15px;
+    padding:10px;
+  }
+  
+  #premium{
+    font-size:15px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size:15px;
+    padding:10px;
+  }
+  #traditional{
+    font-size:15px;
+    padding:10px;
+  }
+  #wedding{
+    font-size:15px;
+    padding:10px;
+  }
+  #more{
+    font-size:15px;
+    padding:10px;
+  }
+  .view-collection-img2 img{
+    height:130px;
+    width:130px;
+  }
+  .view-collection-img2{
+margin-top: 160px;
+margin-left:170px;
+  }
+  .right-line-diamond{
+    width:20%;
+    margin-top:15px;
+  }
+  .left-line-diamond{
+    width:20%;
+    margin-top:15px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:59%;
+    padding-right: 0;
+    margin-right:0;
+    text-align: center;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+    font-size: 26px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+    margin-bottom:0;
+    padding-bottom: 0;
+  }
+  .view-collection-heading{
+    font-size: 20px;
+    margin-left:0;
+    margin-top: 0;
+  }
+  .view-collection-heading button > img{
+    width:30px;
+    height:40px;
+   }
+  .diamond-title{
+    font-size: 23px;
+    width:100%;
+    font-weight:500;
+    margin-top: 0;
+    padding-top:0;
+  }
+  .diamond-quotes{
+    font-size:15px;
+    width:100%;
+  }
+  .view-collection-img{
+margin-left:80px;
+margin-top:80px;
+background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+background-size: 200px 300px;
+height:300px;
+width:200px;
+background-repeat: no-repeat;
+
+}
+.view-collection-img1{
+margin-left:50px;
+margin-top: 0px;
+height:130px;
+width:180px;
+}
+.banner-heading{
+    font-size: 40px;
+    margin-left:20px;
+  }
+  .banner-para{
+    font-size: 20px;
+    width:50%;
+    margin-left:20px;
+  }
+  .box2{
+    width:100%;
+    height:500px;
+  }
+  .decoritem{
+    margin-top: 40px;
+  }
+  .explore{
+    margin-left:20px;
+  }
+ 
+}
+
+@media(max-width:586px){
+#gold{
+    margin-left:10px;
+    font-size:13px;
+    padding:10px;
+  }
+  #premium{
+    font-size:13px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size: 13px;
+    padding:10px;
+  }
+  #traditional{
+    font-size:13px;
+    padding:10px;
+  }
+  #wedding{
+    font-size: 13px;
+    padding:10px;
+  }
+  #more{
+    font-size:13px;
+    padding:10px;
+  }
+  .gem-earring{
+  height:80px;
+  width:126px;
+}
+.gem-ring{
+  height:80px;
+  width:126px;
+}
+.gem-chain{
+  height:172px;
+  width:125px;
+}
+.platinum-chain{
+    height:172px;
+    width:126px;
+  }
+  .platinum-bracelet{
+    height:80px;
+    width:126px;
+  }
+  .platinum-ring{
+    height:80px;
+    width:126px;
+  }
+  .shop-for-jewellery-width{
+    width:50%;
+  }
+  .shop-for-jewellery{
+    width:100%;
+  }
+  .weddingone{
+    width:100%;
+  }
+  .weddingone1{
+    width:48%;
+    float:left;
+    margin-top: 16px;
+  }
+  .weddingone2{
+    width:48%;
+    float:right;
+    
+  }
+  .right-line-diamond{
+    width:12%;
+    margin-top:15px;
+  }
+  .left-line-diamond{
+    width:12%;
+    margin-top:15px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:75%;
+    padding-right: 3px;
+    margin-right:2px;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 26px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .diamond-title{
+    font-size: 23px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size: 18px;
+    width:100%;
+   
+  }
+  .view-collection-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .view-collection-img1{
+    height:150px;
+    width:200px;
+    margin-left: 40px;
+    margin-top:10px;
+  }
+  .view-collection-img{
+    background-size:230px 300px;
+    margin-top:150px;
+    margin-left:100px;
+    padding-top: 70px;
+    height:300px;
+    width:230px;
+    background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+  }
+  .view-collection-img2{
+    margin-top:130px;
+margin-left:150px;
+height:120px;
+width:120px;
+  }
+  .view-collection-img2 img{
+    height:140px;
+width:100%;
+
+  }
+  .diamond-collection-height{
+    height:850px;
+    margin-top: 20px;
+  }
+  .decoritem{
+    margin-top: 20px;
+  }
+}
+@media(max-width:576px){
+.view-collection-img{
+    background-size:250px 300px;
+    margin-top:0;
+    margin-left:200px;
+    padding-top: 70px;
+    height:300px;
+    width:250px;
+    background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+  }
+  .bottom-details{
+    text-align: center;
+  }
+  .Fast-shipping-width{
+    width:50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    .Fast-shipping p{
+    margin-left: 50px;
+    margin-right: 0px;
+    }
+    .Fast-shipping img{
+    margin-left: 80px;
+    margin-right: 0px;
+    }
+    .Timeless-pieces p{
+    margin-left: 30px;
+    margin-right: 0px;
+    }
+    .Timeless-pieces img{
+    margin-left: 70px;
+    margin-right: 0px;
+    }
+    .Timeless-pieces-width{
+    width:50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .diamond-collection-height{
+      height: 700px;
+    }
+    .Heritage-inspired-width{
+    width:50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .Heritage-inspired p{
+    margin-left: 50px;
+    margin-right: 0px;
+    }
+    .Heritage-inspired img{
+    margin-left: 70px;
+    margin-right: 0px;
+    }
+    .Custom-designs-width{
+    width:50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .Custom-designs p{
+    margin-left: 30px;
+    margin-right: 0px;
+    }
+    .Custom-designs img{
+    margin-left: 70px;
+    margin-right: 0px;
+    }
+}
+@media(max-width:530px){
+.platinum-chain-width{
+    width:50%;
+  }
+  .platinum-ring-width{
+    width:50%;
+  }
+  .gem-earring-width{
+    width:50%;
+  }
+  .gem-chain-width{
+    width:50%;
+  }
+  .platinum-chain{
+    height:212px;
+    width:250px;
+  }
+  .platinum-bracelet{
+    height:100px;
+    width:230px;
+  }
+  .platinum-ring{
+    height:100px;
+    width:230px;
+  }
+  .gem-earring{
+    height:100px;
+    width:250px;
+    padding-top:10px;
+  }
+  .gem-ring{
+    height:100px;
+    width:250px;
+    padding:0px;
+  }
+  .gem-chain{
+    height:212px;
+    width:230px;
+    padding-top:10px;
+  }
+  .rose-gold{
+    height:850px;
+  }
+}
+@media(max-width:505px){
+.decoritem{
+    margin-top:5px;
+  }
+}
+@media(max-width:480px){
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+.properties a{
+text-align:center;
+font-size:18px;
+font-family: "cursive";
+font-weight: 550;
+}
+#myNavBar{
+margin-top:10px;
+}
+  #search-padding{
+      width:130px;
+      float:top;
+      margin-left:0px;
+  }
+  .rose-gold{
+    background-image:url("https://media.istockphoto.com/id/910271988/vector/clover-leaf-hand-drawn-sketch-doodle-illustration-st-patricks-day-symbol-irish-lucky-shamrock.jpg?s=612x612&w=0&k=20&c=3v1QzSSclYJAERYMQqFY4muhlUZk184VUtbcnSnOMF8=");
+    background-repeat: no-repeat;
+    background-size:100% 300px;
+  }
+  .adverdisement{
+    display:none;
+  }
+  .mid-img-scroll{
+    height:125px;
+    width:400px
+  }
+  .alert{
+    font-size:10px;
+  }
+ 
+   #gold{
+ margin-left: 15px;
+    font-size:18px;
+    padding:10px;
+  }
+  #premium{
+    font-size: 18px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size: 18px;
+    padding:10px;
+  }
+  #traditional{
+    font-size:18px;
+    padding:10px;
+  }
+  #wedding{
+    font-size: 18px;
+    padding:10px;
+    margin-left: 130px;
+  }
+  #more{
+    font-size:18px;
+    padding:10px;
+}
+.navbar{
+height:70px;
+}
+#icon{
+height:50px;
+width:80px;
+}
+
+  .axio{
+    width:23%;
+  }
+  .axio img{
+    height:30%;
+    width:100%;
+    margin-left: 0;
+  }
+  .axio-emi {
+    width:25%;
+    font-size:79%;
+    float:left;
+  }
+  .vertical-line{
+    width:10%;
+  }
+  #vertical-line{
+    text-align:left;
+    margin-left:4px;
+  }
+  .bajaj-finance{
+    width:25%;
+    font-size:79%;
+  }
+  .bajaj-img img{
+    margin-top: 10px;
+    width:400%;
+    height:60%;
+  }
+  .bajaj-img{
+    width:15%;
+  }
+  .platinum-chain-width{
+    width:50%;
+  }
+  .platinum-ring-width{
+    width:50%;
+  }
+  .gem-earring-width{
+    width:50%;
+  }
+  .gem-chain-width{
+    width:50%;
+  }
+  .platinum-chain{
+    height:212px;
+    width:220px;
+  }
+  .platinum-bracelet{
+    height:100px;
+    width:200px;
+  }
+  .platinum-ring{
+    height:100px;
+    width:200px;
+  }
+  .gem-earring{
+    height:100px;
+    width:220px;
+    padding-top:10px;
+  }
+  .gem-ring{
+    height:100px;
+    width:220px;
+    padding:0px;
+  }
+  .gem-chain{
+    height:212px;
+    width:200px;
+    padding-top:10px;
+  }
+  #shop-for-h1{
+    font-size:30px;
+  }
+  #shop-for-p{
+    font-size:15px;
+    float:left;
+  }
+  .right-line{
+    width:10%;
+    margin-top:35px;
+  }
+  .shop-for-p-width{
+    width:70%;
+  }
+  .left-line{
+    width:10%;
+    margin-top:35px;
+  }
+  .shop-for-jewellery-width{
+    width:100%;
+  }
+  .shop-for-jewellery{
+    width:49%;
+    height:370px;
+  }
+  .weddingone1{
+    margin-top: 0;
+  }
+  .jewellerytwo{
+    float:left;
+    margin-bottom: 10px;
+  }
+  .jewelleryone{
+  float:right;
+  }
+  #coupleheight{
+    height:200px;
+  }
+  #weddingheight{
+    height:200px;
+  }
+  .gold-banner{
+    height:200px;
+    width:100%;
+  }
+  .rose-gold{
+    height:1500px;
+  }
+  .rose-gold-heading h1{
+    font-size:35px;
+  }
+  .rose-gold-heading p{
+    font-size:18px;
+  }
+  .gold-option-1 th,td{
+    font-size: 15px;
+  }
+  .gold-option-1 th{
+    font-size: xx-small;
+  }
+  .small-heading{
+    font-size: 18px;
+  }
+  .diamond-option-2-c{
+    font-size: 18px;
+  }
+  .silver-heading{
+    font-size:18px;
+  }
+  .traditional-type{
+    font-size:18px;
+  }
+  .platinum-type{
+    font-size:18px;
+  }
+  #gap{
+    display:none;
+  }
+  .rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+    background-color: red;
+  }
+  .rosegold-img-two{
+    width:107%;
+  }
+  .second-rose-p{
+      color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      padding-left:50px;
+      text-align: center;
+      margin-right: 50px;
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+    height:270px;
+      width:106%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }   
+  .rosegold-img-three img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .rosegold-img-three{
+    width:106%;
+    margin-top: 0px;
+  }
+  .three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .first-rose-gold{
+        width:50%;
+       }
+       .second-rose-gold{
+        width:50%;
+       }
+       .three-rose-gold{
+        width:50%;
+       }
+       /*rose-gold one*/
+       .rose-gold-firstimg:hover{
+        height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+      margin-top:10px;    
+  }
+  .rose-gold-firstimg img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .first-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .first-rose-rs{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+  .rose-gold-firstimg{
+    width:107%;
+    margin-top:10px;
+  }
+  .secondpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .firstpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .second-button-rose{
+    width:50%;
+  }
+  .rose-gold{
+    height:700px;
+  }
+  .part2-rosegold-img-two{
+    width:107%;
+  }
+  .part2-rosegold-img-two img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .part2-second-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .part2-second-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .first-rose-gold-part2{
+    width:50%;
+  }
+  .part2-rosegold-img-two:hover{
+        height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .rose-img-two2{
+    width:50%;
+  }
+  .part2-rosegold-img-three{
+    width:104%;
+  }
+  .part2-rosegold-img-three img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .second-rose-gold-part2{
+    width:50%;
+  }
+  .part2-three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .part2-three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .part2-rosegold-img-three:hover{
+    height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .first-rose-gold-part2{
+    width:50%;
+  }
+  .three-rose-gold-part2{
+    width:50%;
+  }
+.part2-rose-gold-firstimg img{
+    height:150px;
+    width:107%;
+    border-radius: 0px;
+}
+.part2-first-rose-p{
+     color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+}
+.part2-first-rose-rs{
+color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.part2-rose-gold-firstimg:hover{
+     height:270px;
+      width:109%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+}
+.three-rose-gold-part2 img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width:100%;
+  }
+  .three-rose-gold-part2{
+    width: 50%;
+    margin-top: 10px;
+  }
+  .firstpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+  }
+  .first-button-rose{
+    width:50%;
+  }
+  .right-line-diamond{
+    width:15%;
+    margin-top:15px;
+  }
+  .left-line-diamond{
+    width:15%;
+    margin-top:15px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:70%;
+    padding-right: 0;
+    margin-right:0;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size: 25px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .diamond-title{
+    font-size: 25px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size: 20px;
+    width:50%;
+   
+  }
+  .view-collection-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .view-collection-img1{
+    height:100px;
+    width:40%;
+    margin-left: 0px;
+    margin-top:20px;
+  }
+  .view-collection-img{
+    background-size:100% 300px;
+    margin-top: 0px;
+    margin-left:90px;
+    padding-top: 40px;
+    height:300px;
+    width:50%;
+    background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+  }
+  .view-collection-img2{
+    margin-top:170px;
+margin-left:150px;
+height:120px;
+width:70%;
+  }
+  .view-collection-img2 img{
+    height:140px;
+width:80%;
+
+  }
+  .diamond-collection-height{
+    height:850px;
+    margin-top: 20px;
+  }
+  marquee button img{
+    width:100%;
+    height:200px;
+  }
+  .banner-heading{
+    font-size: 30px;
+    margin-left:10px;
+  }
+  .banner-para{
+    font-size: 20px;
+    width:100%;
+    margin-left:10px;
+  }
+  .box2{
+    width:100%;
+    height:280px;
+  }
+  .box1{
+    width:100%;
+  }
+  .mm-gold-banner{
+    width:60%
+  }
+  .explore{
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 2px 10px 2px 15px;
+    width:100px;
+  }
+  .decoritem{
+    width:100%;
+    height:150px;
+    margin-top:100px;
+    display: none;
+  }
+  .model-img{
+    height:250px;
+    width:110%;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .model-img-width{
+    width:40%;
+  }
+  .bottom{
+padding-top: 20px;
+background-color: rgb(253, 232, 236);
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+}
+.mm-gold{
+font-size: 25px;
+}
+.mm-para{
+font-size: 18px;
+}
+.Fast-shipping-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.Fast-shipping p{
+margin-left: 50px;
+margin-right: 0px;
+}
+.Fast-shipping img{
+margin-left: 80px;
+margin-right: 0px;
+}
+.Timeless-pieces p{
+margin-left: 30px;
+margin-right: 0px;
+}
+.Timeless-pieces img{
+margin-left: 70px;
+margin-right: 0px;
+}
+.Timeless-pieces-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Heritage-inspired-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Heritage-inspired p{
+margin-left: 50px;
+margin-right: 0px;
+}
+.Heritage-inspired img{
+margin-left: 70px;
+margin-right: 0px;
+}
+.Custom-designs-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Custom-designs p{
+margin-left: 30px;
+margin-right: 0px;
+}
+.Custom-designs img{
+margin-left: 70px;
+margin-right: 0px;
+}
+.location-width iframe{
+width:100%;
+}}
+@media(max-width:465px){
+  #gold{
+      margin-left:30px;
+    font-size:15px;
+    padding:10px;
+  }
+  #premium{
+    font-size: 15px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size: 15px;
+    padding:10px;
+  }
+  #traditional{
+    font-size:15px;
+    padding:10px;
+    margin-right: 0;
+  }
+  #wedding{
+    margin-left:130px;
+    font-size: 15px;
+    padding:10px;
+  }
+  #more{
+    font-size:15px;
+    padding:10px;
+}
+}
+@media(max-width:420px){
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+  #search-padding{
+      width:130px;
+      float:top;
+      margin-left:0px;
+  }
+  .rose-gold{
+    background-image:url("https://media.istockphoto.com/id/910271988/vector/clover-leaf-hand-drawn-sketch-doodle-illustration-st-patricks-day-symbol-irish-lucky-shamrock.jpg?s=612x612&w=0&k=20&c=3v1QzSSclYJAERYMQqFY4muhlUZk184VUtbcnSnOMF8=");
+    background-repeat: no-repeat;
+    background-size:100% 300px;
+  }
+  .adverdisement{
+    display:none;
+  }
+  .mid-img-scroll{
+    height:125px;
+    width:400px
+  }
+  .alert{
+    font-size:10px;
+  }
+ 
+   #gold{
+      margin-left:0;
+    font-size:15px;
+    padding:10px;
+  }
+  #premium{
+    font-size: 15px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size: 15px;
+    padding:10px;
+  }
+  #traditional{
+    font-size:15px;
+    padding:10px;
+  }
+  #wedding{
+    font-size: 15px;
+    padding:10px;
+    margin-left:0;
+  }
+  #more{
+    font-size:15px;
+    padding:10px;
+}
+.navbar{
+height:70px;
+}
+#icon{
+height:50px;
+width:80px;
+}
+  .platinum-chain{
+    height:212px;
+    width:190px;
+  }
+  .platinum-bracelet{
+    height:100px;
+    width:170px;
+  }
+  .platinum-ring{
+    height:100px;
+    width:170px;
+  }
+  .axio{
+    width:23%;
+  }
+  .axio img{
+    height:30%;
+    width:100%;
+    margin-left: 0;
+  }
+  .axio-emi {
+    width:25%;
+    font-size:79%;
+    float:left;
+  }
+  .vertical-line{
+    width:5%;
+  }
+  #vertical-line{
+    text-align:left;
+    margin-left:0px;
+    height:130px;
+  }
+  .bajaj-finance{
+    width:25%;
+    font-size:79%;
+  }
+  .bajaj-img img{
+    margin-top: 10px;
+    width:400%;
+    height:60%;
+  }
+  .bajaj-img{
+    width:15%;
+  }
+  .platinum-chain-width{
+    width:50%;
+  }
+  .platinum-ring-width{
+    width:50%;
+  }
+  .gem-earring-width{
+    width:50%;
+  }
+  .gem-chain-width{
+    width:50%;
+  }
+  .gem-earring{
+    height:100px;
+    width:190px;
+    padding-top:10px;
+  }
+  .gem-ring{
+    height:100px;
+    width:190px;
+    padding:0px;
+  }
+  .gem-chain{
+    height:212px;
+    width:170px;
+    padding-top:10px;
+  }
+  #shop-for-h1{
+    font-size:30px;
+  }
+  #shop-for-p{
+    font-size:15px;
+    float:left;
+  }
+  .right-line{
+    width:10%;
+    margin-top:35px;
+  }
+  .shop-for-p-width{
+    width:70%;
+  }
+  .left-line{
+    width:10%;
+    margin-top:35px;
+  }
+  .shop-for-jewellery-width{
+    width:100%;
+  }
+  .shop-for-jewellery{
+    width:49%;
+    height:370px;
+  }
+  .jewellerytwo{
+    float:left;
+    margin-bottom: 10px;
+  }
+  .jewelleryone{
+  float:right;
+  }
+  #coupleheight{
+    height:200px;
+  }
+  #weddingheight{
+    height:200px;
+  }
+  .gold-banner{
+    height:200px;
+    width:100%;
+  }
+  .rose-gold{
+    height:1500px;
+  }
+  .rose-gold-heading h1{
+    font-size:35px;
+  }
+  .rose-gold-heading p{
+    font-size:18px;
+  }
+  .gold-option-1 th,td{
+    font-size: 15px;
+  }
+  .gold-option-1 th{
+    font-size: xx-small;
+  }
+  .small-heading{
+    font-size: 18px;
+  }
+  .diamond-option-2-c{
+    font-size: 18px;
+  }
+  .silver-heading{
+    font-size:18px;
+  }
+  .traditional-type{
+    font-size:18px;
+  }
+  .platinum-type{
+    font-size:18px;
+  }
+  #gap{
+    display:none;
+  }
+  .rosegold-img-two img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-two:hover{
+      height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }
+  .rosegold-img-two img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+    background-color: red;
+  }
+  .rosegold-img-two{
+    width:107%;
+  }
+  .second-rose-p{
+      color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      padding-left:50px;
+      text-align: center;
+      margin-right: 50px;
+  }
+  .second-rose-btn{
+      color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.rosegold-img-three img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .rosegold-img-three:hover{
+    height:270px;
+      width:106%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;   
+  }   
+  .rosegold-img-three img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .rosegold-img-three{
+    width:106%;
+    margin-top: 0px;
+  }
+  .three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+       .first-rose-gold{
+        width:50%;
+       }
+       .second-rose-gold{
+        width:50%;
+       }
+       .three-rose-gold{
+        width:50%;
+       }
+       /*rose-gold one*/
+       .rose-gold-firstimg:hover{
+        height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+      margin-top:10px;    
+  }
+  .rose-gold-firstimg img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .first-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top:10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .first-rose-rs{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+       }
+  .rose-gold-firstimg{
+    width:107%;
+    margin-top:10px;
+  }
+  .secondpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .firstpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .second-button-rose{
+    width:50%;
+  }
+  .rose-gold{
+    height:680px;
+  }
+  .part2-rosegold-img-two{
+    width:107%;
+  }
+  .part2-rosegold-img-two img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .part2-second-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .part2-second-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .first-rose-gold-part2{
+    width:50%;
+  }
+  .part2-rosegold-img-two:hover{
+        height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .rose-img-two2{
+    width:50%;
+  }
+  .part2-rosegold-img-three{
+    width:104%;
+  }
+  .part2-rosegold-img-three img{
+    height:150px;
+    width:100%;
+    border-radius: 0px;
+  }
+  .second-rose-gold-part2{
+    width:50%;
+  }
+  .part2-three-rose-p{
+    color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+  }
+  .part2-three-rose-btn{
+    color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+  }
+  .part2-rosegold-img-three:hover{
+    height:270px;
+      width:107%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px;  
+  }
+  .first-rose-gold-part2{
+    width:50%;
+  }
+  .three-rose-gold-part2{
+    width:50%;
+  }
+.part2-rose-gold-firstimg img{
+    height:150px;
+    width:107%;
+    border-radius: 0px;
+}
+.part2-first-rose-p{
+     color:rgb(120, 87, 2);
+      margin-top: 10px;
+      font-size:20px;
+      font-family: "cursive";
+      display:none;
+      margin-right:30%;
+      padding-left:50px;
+      text-align: center;
+}
+.part2-first-rose-rs{
+color:black;
+      text-align: center;
+      margin-left:40px;
+      margin-top: 0%;
+      font-size:20px;
+      border: none;
+      background-color: transparent;
+      display: none;
+}
+.part2-rose-gold-firstimg:hover{
+     height:270px;
+      width:109%;
+      margin:0px;
+      border: 4px solid goldenrod;
+      border-radius: 10px; 
+}
+.three-rose-gold-part2 img:hover{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width:100%;
+  }
+  .three-rose-gold-part2{
+    width: 50%;
+    margin-top: 10px;
+  }
+  .firstpart-btn svg{
+    width:50%;
+    height:130px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+  }
+  .first-button-rose{
+    width:50%;
+  }
+  .right-line-diamond{
+    width:15%;
+    margin-top:15px;
+  }
+  .left-line-diamond{
+    width:15%;
+    margin-top:15px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:70%;
+    padding-right:0;
+    margin-right:0;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size:20px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+  .diamond-title{
+    font-size: 25px;
+    width:100%;
+    font-weight:500;
+  }
+  .diamond-quotes{
+    font-size: 20px;
+    width:50%;
+   
+  }
+  .view-collection-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .view-collection-img1{
+    height:100px;
+    width:40%;
+    margin-left: 0px;
+    margin-top:20px;
+  }
+  .view-collection-img{
+    background-size:100% 300px;
+    margin-top: 0px;
+    margin-left:90px;
+    padding-top: 40px;
+    height:300px;
+    width:50%;
+    background-image: url("https://www.bhimagold.com/_next/image?url=https%3A%2F%2Fd1bpnn2a5id540.cloudfront.net%2F1653277918007%2F2ff4cc20-d76e-11ed-ab55-8777946494c3.jpeg&w=512&q=75");
+  }
+  .view-collection-img2{
+    margin-top:170px;
+margin-left:150px;
+height:120px;
+width:70%;
+  }
+  .view-collection-img2 img{
+    height:140px;
+width:80%;
+
+  }
+  .diamond-collection-height{
+    height:850px;
+    margin-top: 20px;
+  }
+  marquee button img{
+    width:100%;
+    height:200px;
+  }
+  .banner-heading{
+    font-size: 30px;
+    margin-left:10px;
+  }
+  .banner-para{
+    font-size: 20px;
+    width:100%;
+    margin-left:10px;
+  }
+  .box2{
+    width:100%;
+    height:280px;
+  }
+  .box1{
+    width:100%;
+  }
+  .mm-gold-banner{
+    width:60%
+  }
+  .explore{
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 2px 10px 2px 15px;
+    width:100px;
+  }
+  .decoritem{
+    width:100%;
+    height:150px;
+    margin-top:100px;
+    display: none;
+  }
+  .model-img{
+    height:250px;
+    width:110%;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .model-img-width{
+    width:40%;
+  }
+  .bottom{
+padding-top: 20px;
+background-color: rgb(253, 232, 236);
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500;
+}
+.mm-gold{
+font-size: 25px;
+}
+.mm-para{
+font-size: 18px;
+}
+.Fast-shipping-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.Fast-shipping p{
+margin-left: 50px;
+margin-right: 0px;
+}
+.Fast-shipping img{
+margin-left: 80px;
+margin-right: 0px;
+}
+.Timeless-pieces p{
+margin-left: 30px;
+margin-right: 0px;
+}
+.Timeless-pieces img{
+margin-left: 70px;
+margin-right: 0px;
+}
+.Timeless-pieces-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Heritage-inspired-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Heritage-inspired p{
+margin-left: 50px;
+margin-right: 0px;
+}
+.Heritage-inspired img{
+margin-left: 70px;
+margin-right: 0px;
+}
+.Custom-designs-width{
+width:50%;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Custom-designs p{
+margin-left: 30px;
+margin-right: 0px;
+}
+.Custom-designs img{
+margin-left: 70px;
+margin-right: 0px;
+}
+.location-width iframe{
+width:100%;
+}
+}
+@media(max-width:385px){
+  .gem-earring{
+    height:100px;
+    width:150px;
+    padding-top:10px;
+  }
+  .gem-ring{
+    height:100px;
+    width:150px;
+    padding:0px;
+  }
+  .gem-chain{
+    height:212px;
+    width:150px;
+    padding-top:10px;
+  }
+.platinum-chain{
+    height:212px;
+    width:150px;
+  }
+  .platinum-bracelet{
+    height:100px;
+    width:150px;
+  }
+  .platinum-ring{
+    height:100px;
+    width:150px;
+  }
+  .right-line-diamond{
+    width:13%;
+    margin-top:13px;
+  }
+  .left-line-diamond{
+    width:13%;
+    margin-top:13px;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:74%;
+    padding-right:0;
+    margin-right:0;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    margin-right: 0px;
+   font-size:20px;
+   color: black;
+   margin-left: 0px;
+    font-weight: 530;
+  }
+}
+@media(max-width:370px){
+  .diamond-collection-height{
+    height:900px;
+  }
+  .banner-heading{
+    font-size: 27px;
+    margin-left:10px;
+  }
+  .banner-para{
+    font-size:18px;
+    width:100%;
+    margin-left:10px;
+  }
+}
+@media(max-width:365px){
+#search-padding{
+width:80px;
+}
+
+#gold{
+    margin-left:30px;
+    font-size:13px;
+    padding:10px;
+  }
+  #premium{
+    font-size: 13px;
+    padding:10px;
+  }
+  #new-arrivals{
+    font-size: 13px;
+    padding:10px;
+  }
+  #traditional{
+    margin-left:15px;
+    font-size:13px;
+    padding:10px;
+  }
+  #wedding{
+    margin-left: 0;
+    font-size: 13px;
+    padding:10px;
+  }
+  #more{
+    font-size:13px;
+    padding:10px;
+}
+.btn-outline-success{
+width:30px;
+margin-left: 0px;
+padding-left:7px;
+}.axio{
+    width:27%;
+  }
+  .axio img{
+    height:30%;
+    width:100%;
+    margin-left: 0;
+  }
+  .axio-emi {
+    width:25%;
+    font-size:10px;
+    float:left;
+  }
+  .vertical-line{
+    width:5%;
+  }
+  #vertical-line{
+    text-align:left;
+    margin-left:0;
+    height:100px;
+  }
+  .bajaj-finance{
+    width:23%;
+    font-size:10px;
+  }
+  .bajaj-img img{
+    margin-top: 10px;
+    width:500%;
+    height:60%;
+  }
+  .bajaj-img{
+    width:17%;
+  }
+  .platinum-chain-width{
+    width:50%;
+  }
+  .platinum-ring-width{
+    width:50%;
+  }
+  .gem-earring-width{
+    width:50%;
+  }
+  .gem-chain-width{
+    width:50%;
+  }
+  .gem-earring{
+    height:90px;
+    width:150px;
+    padding-top:10px;
+  }
+  .gem-ring{
+    height:90px;
+    width:150px;
+    padding:0px;
+  }
+  .gem-chain{
+    height:192px;
+    width:130px;
+    padding-top:10px;
+  }
+.platinum-chain{
+    height:192px;
+    width:150px;
+  }
+  .platinum-bracelet{
+    height:90px;
+    width:130px;
+  }
+  .platinum-ring{
+    height:90px;
+    width:130px;
+  }
+  .card-title{
+    font-size: 17px;
+  }
+  
+  .button-shop-for{
+    font-size:10px;
+  }
+  #coupleheight{
+    height:180px;
+  }
+  .btn{
+    font-size: 15px;
+  }
+}
+@media(max-width:350px){
+  .rose-gold{
+    height:700px;
+  }
+}
+@media(max-width:330px){
+  .rose-gold{
+    height:750px;
+  }
+  .second-rose-p{
+    margin-left: 0;
+    padding-left:40px;
+  }
+  .second-rose-btn{
+    margin-left: 0;
+    padding-left:30px;
+  }
+  .three-rose-p{
+    margin-left: 0;
+    padding-left:40px;
+  }
+  .three-rose-btn{
+    margin-left: 0;
+    padding-left:30px;
+  }
+  .first-rose-p{
+    margin-left: 0;
+    padding-left:40px;
+  }
+  .first-rose-rs{
+    margin-left: 0;
+    padding-left:30px;
+  }
+  .part2-second-rose-p{
+    margin-left: 0;
+    padding-left:40px; 
+  }
+  .part2-second-rose-btn{
+    margin-left: 0;
+    padding-left:30px;
+  }
+  .part2-three-rose-p{
+    margin-left: 0;
+    padding-left:40px; 
+  }
+  .part2-three-rose-btn{
+    margin-left: 0;
+    padding-left:30px;
+  }
+  .part2-first-rose-p{
+    margin-left: 0;
+    padding-left:40px;
+  }
+  .part2-first-rose-rs{
+    margin-left: 0;
+    padding-left:30px;
+  }
+  .diamond-collection-height{
+    height:950px;
+  }
+  .STYLE-WITH-DIAMONS-width h1{
+    font-size:20px;
+    margin-left:0;
+  }
+  .STYLE-WITH-DIAMONS-width{
+    width:80%;
+    padding-right:0;
+    margin-right:0;
+  }
+  .right-line-diamond{
+    width:10%;
+    margin-top:13px;
+  }
+  .left-line-diamond{
+    width:10%;
+    margin-top:13px;
+  }
+  .view-collection-img2{
+    margin-top:170px;
+margin-left:100px;
+height:120px;
+width:70%;
+  }
+  .view-collection-img2 img{
+    height:140px;
+width:100px;
+
+  }
+}
