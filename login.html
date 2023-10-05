@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        background-image: url("https://i.pinimg.com/originals/88/d3/0b/88d30b077f9cfa883c51fd504af87d3a.jpg");
+background-repeat: no-repeat;
+        padding: 25px;
+        color:white;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-size: 100% 650px;
+        height: 590px;
+    }
+    #lab{
+        margin-top: 90px;
+        display: table-row;
+    }
+    #lab lable{
+        display: table-cell;
+        padding: 2px;
+        text-align: left;
+
+    }
+    P{color: red;}
+    .form-body{
+        margin-top: 50px;
+    }
+    #submit{
+        margin-left: 120px;
+        border:none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: bisque;
+        font-weight: bolder;
+
+    }
+    #back-to-home{
+        border:none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: bisque;
+        font-weight: bolder;
+    }
+    #heading{
+        text-align: center;
+    
+    }
+</style>
+<body>
+        <DIV id="box" >
+            <h1 id="heading"><span style="color: gold;">MM </span>GOLDS & DIA<span style="color: gold;">M</span>ONDS</h1>
+    <form id="fom" action="login.html"onsubmit="return mano1()">
+        <div class="form-body">
+        <div id="lab">
+    <lable>Name</lable>
+<input type="name" id="name1" placeholder="Please Enter Your Name"><p id="p1"></p>
+<br></div>
+<div id="lab">
+<lable>Phone number</lable>
+<input type="text" id="numbe" placeholder="Please Enter Your Phone Number"><p id="p2"></p>
+<br></div>
+<div id="lab">
+    <lable>Email</lable>
+    <input type="email" id="email" placeholder="Please Enter Your Email Id"><p id="p3"></p>
+    <br></div>
+    <div id="lab">
+        <lable>Password</lable>
+        <input type="password" id="password" placeholder="Please Enter Your Email Password"><p id="p4"></p>
+        <br></div>
+
+<input type="submit" id="submit"value="Submit">
+<input type="button" id="back-to-home" value="Back to home" onclick="location.href='Index.html'"></div>
+</form></div>
+
+
+<script>
+    function mano1(){
+        var vali1=document.getElementById("name1");
+        if(vali1.value==""||!isNaN(vali1.value)){
+        document.getElementById("p1").innerHTML="*name is not displayed*";
+        vali1.focus();
+        vali1.style.border="solid 5px red"
+        return false;
+        }
+    var numberr=document.getElementById("numbe");
+    if(numberr.value==""||numberr.value.length<10||isNaN(numbe.value)||numberr.value.length>10){
+document.getElementById("p2").innerHTML="*number is invalid*";
+numberr.focus();
+numberr.style.border="solid 5px red"
+return false;
+    }
+    var emailid=document.getElementById("email");
+    if(emailid.value==""){
+document.getElementById("p3").innerHTML="*Invalid EmailId*";
+emailid.focus();
+emailid.style.border="solid 5px red"
+return false;
+    }
+    var password=document.getElementById("password");
+    if(password.value==""||password.value.length>12||password.value.length<8){
+document.getElementById("p4").innerHTML="*Invalid password*";
+password.focus();
+password.style.border="solid 5px red"
+return false;
+    }
+    
+    }
+    
+    
+  
+
+</script>
+</body>
+</html>

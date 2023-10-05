@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <style>
+        #mens-jewellery-collection{
+            text-align: center;
+            padding:50px;
+        }
+        .card-text{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 15px;
+        }
+        p{
+            text-align: center;
+        }
+        #cover{
+          margin-bottom:70px;
+        }
+        button{
+            padding:5px 10px 5px 10px;
+            text-align: center;
+            margin-left:70px;
+        }
+        #cover{
+          margin-top: 50px;
+        }
+        #head{
+          background-color: salmon;
+        }
+        .card{
+          margin-bottom: 20px;
+          width:18rem;
+          border: 3px solid goldenrod;
+        } #cover{
+          margin-top: 50px;
+
+        }
+        @media(max-width:920px)
+      {
+        .card img{
+        width:270px;
+        height:300px;
+          }
+          .card{
+            width:276px;
+        height:480px;
+          }
+          .card-width{
+            width:33%;
+          }
+          .card-text{
+            font-size:15px;
+          }
+          .card-text2{
+            font-size:15px;
+          }
+        }
+        @media(max-width:865px)
+      {
+        .card img{
+        width:300px;
+        height:300px;
+          }
+          .card{
+            width:306px;
+        height:450px;
+          }
+          .card-width{
+            width:50%;
+          }
+          .card-text{
+            font-size:13px;
+          }
+          .card-text2{
+            font-size:13px;
+          }
+        
+      }
+        @media(max-width:750px)
+      {
+        .card img{
+        width:300px;
+        height:300px;
+          }
+          .card{
+            width:306px;
+        height:450px;
+          }
+          .card-width{
+            width:50%;
+          }
+          .card-text{
+            font-size:15px;
+          }
+          .card-text2{
+            font-size:15px;
+          }
+        }
+        @media(max-width:650px){
+          .card img{
+        width:230px;
+        height:230px;
+          }
+          .card{
+            width:236px;
+        height:330px;
+          }
+          .card-width{
+            width:50%;
+          }
+          .card-text{
+            font-size:13px;
+          }
+          .card-text2{
+            font-size:13px;
+          }
+        }
+        @media(max-width:620px){
+          .card img{
+        width:200px;
+        height:200px;
+          }
+          .card{
+            width:206px;
+        height:300px;
+          }
+          .card-width{
+            width:50%;
+          }
+          .card-text{
+            font-size:13px;
+          }
+          .card-text2{
+            font-size:13px;
+          }
+        }
+
+          @media(max-width:480px){
+            #cover img{
+              height:400px;
+              width:100%
+            }
+            .card img{
+        width:150px;
+        height:150px;
+          }
+          .card{
+            width:156px;
+        height:250px;
+          }
+          .card-width{
+            width:50%;
+          }
+          .card-text{
+            font-size:10px;
+          }
+          .card-text2{
+            font-size:10px;
+          }
+          }
+          @media(max-width:345px){
+            .card-width{
+            width:100%;
+          }
+          #cover img{
+              height:200px;
+              width:100%;
+            }
+            #cover{
+              margin-top:10px;
+              margin-bottom:30px;
+            }
+            #mens-jewellery-collection{
+              font-size: 30px;
+              padding:30px;
+            }
+            #head{
+             height:100px;
+          } .card-text{
+            font-size:13px;
+          }
+          .card-text2{
+            font-size:13px;
+          }
+          #cover img{
+              height:200px;
+              width:100%;
+            }
+            .card img{
+        width:200px;
+        height:200px;
+          }
+          .card{
+            width:206px;
+        height:300px;
+        margin-left: 40px;
+          }}
+    </style>
+</head>
+<body>
+  <br><!--heading-->
+  <div class="container-fluid">
+    <p onclick="location.href='Index.html'" style="text-align: start;">HOME</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+    <div id="head"><h1 id="mens-jewellery-collection">GOLD FOR MEN</h1></div></div></div>
+    <!--cover page-->
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+    <div id="cover">
+<img src="https://www.fashionbeans.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-06-at-08.17.22.png" height="500px" width="100%">
+  </div></div></div></div>
+  <!--mens gold collections-->
+    <div class="container-fluid">
+    
+    <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 card-width">
+            <div class="card no-1">
+                <img src="https://i.pinimg.com/474x/c3/21/81/c3218130531e6cef479493cee37e6250.jpg" width="350px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><b>22K GOLDEN BRACELET</b></p>
+                    <p class="card-text2"><strong>₹1,56,275 </strong><del>₹1,54,876</del><span style="color: red;">(2% off)</span></p>
+                </div>
+              </div>
+         </div>
+         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 card-width">
+            <div class="card no-1">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwdc754797/images/hi-res/513018FMJAA00.jpg?sw=640&sh=640" width="350px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><b>22K GOLDERN RING</b></p>
+                    <p class="card-text2"><strong>₹55,670 </strong><del>₹54,790</del><span style="color: red;">(5% off)</span></p>
+                </div>
+              </div>
+         </div>
+         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 card-width">
+            <div class="card no-1">
+                <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/h_373,q_80,w_280/v1/assets/images/17687084/2022/3/30/85056a26-bd09-4fd3-bab2-e48038bcaedb1648628828794PANASHMenGoldNecklaceandChains1.jpg" width="350px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><b>22K GOLDEN CHAIN</b></p>
+                    <p class="card-text2"><strong>₹2,58,890 </strong><del>₹2.58,000</del><span style="color: red;">(1% off)</span></p>
+                </div>
+              </div>
+         </div>
+         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 card-width">
+            <div class="card no-1">
+                <img src="https://cdn1.jewelxy.com/live/img/business_product/360x360/vDxVV6dp7i_20230626192159.jpg" width="350px" height="300px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><b> 18K GOLDEN WATCH</b></p>
+                    <p class="card-text2"><strong>₹1,25,750 </strong><del>₹1,23,657</del><span style="color: red;">(3% off)</span></p>
+                </div>
+              </div>
+         </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

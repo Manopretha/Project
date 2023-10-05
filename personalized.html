@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #center-content{
+            font-size: 25px;
+        }
+        #personalized-content{
+            padding-top:69px;
+            padding-bottom: 30px;
+        }
+        p{
+            text-align: center;
+        }
+        #return-to-home{
+            border-style:none;
+            background-color: white;
+            color:gray;
+        }
+    #buttons{
+        text-align: center;
+    }
+        #continue-shopping, #show-me{
+            /*padding:10px;
+            margin-left: 3px;*/
+            border: 2px solid black;
+            padding: 10px;
+            margin: 0;
+            background-color: gainsboro;
+        }
+        #continue-shopping:hover{
+            color: white;
+            background-color: black;
+        }
+        #show-me:hover{
+            color: white;
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <button id="return-to-home" onclick="location.href='Index.html'">HOME</button><div id="personalized-content">
+    <P>Sorry!</P>
+    <p id="center-content"><b>We Do Not Currently Carry The Products You Requested.</b></p>
+    <p>Try another search or find more ways to shop below.</p></div>
+    <div id="buttons">
+    <span id="continue-shopping"onclick="location.href='Index.html'">CONTINUE SHOPPING</span>
+    <!--<button id="show-me"onclick="location.href='personalized.html'">SHOW ME OUT OF STOCK PRODUCT</button>-->
+</div>
+</body>
+</html>
